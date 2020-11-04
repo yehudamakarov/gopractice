@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5987489f-bc74-42bb-8c86-b7c938457238" name="Default Changelist" comment="openthelock.go and openthelock_test.go">
-      <change afterPath="$PROJECT_DIR$/topics/bfsdfs/openthelock.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/topics/bfsdfs/openthelock_test.go" afterDir="false" />
+    <list default="true" id="5987489f-bc74-42bb-8c86-b7c938457238" name="Default Changelist" comment="openthelock.go solution.&#10;but why the if check in the noted todo?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topics/bfsdfs/openthelock.go" beforeDir="false" afterPath="$PROJECT_DIR$/topics/bfsdfs/openthelock.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,7 @@
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="go" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -135,7 +135,8 @@
     <MESSAGE value="ide files commit" />
     <MESSAGE value="main.go" />
     <MESSAGE value="openthelock.go and openthelock_test.go" />
-    <option name="LAST_COMMIT_MESSAGE" value="openthelock.go and openthelock_test.go" />
+    <MESSAGE value="openthelock.go solution.&#10;but why the if check in the noted todo?" />
+    <option name="LAST_COMMIT_MESSAGE" value="openthelock.go solution.&#10;but why the if check in the noted todo?" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -145,42 +146,54 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1512" y="533" key="#Go_Modules/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604459120601" />
-    <state width="1676" height="495" key="GridCell.Tab.0.bottom" timestamp="1604464871922">
+    <state width="459" height="466" key="DebuggerActiveHint" timestamp="1604468191322">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1676" height="495" key="GridCell.Tab.0.bottom/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871922" />
-    <state width="1676" height="495" key="GridCell.Tab.0.center" timestamp="1604464871922">
+    <state width="459" height="466" key="DebuggerActiveHint/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604468191322" />
+    <state x="1812" y="92" width="1536" height="1216" key="DiffContextDialog" timestamp="1604478555029">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1676" height="495" key="GridCell.Tab.0.center/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871922" />
-    <state width="1676" height="495" key="GridCell.Tab.0.left" timestamp="1604464871922">
+    <state x="1812" y="92" width="1536" height="1216" key="DiffContextDialog/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604478555029" />
+    <state x="2360" y="455" key="FileChooserDialogImpl" timestamp="1604478501887">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1676" height="495" key="GridCell.Tab.0.left/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871922" />
-    <state width="1676" height="495" key="GridCell.Tab.0.right" timestamp="1604464871922">
+    <state x="2360" y="455" key="FileChooserDialogImpl/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604478501887" />
+    <state width="1676" height="495" key="GridCell.Tab.0.bottom" timestamp="1604477795838">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1676" height="495" key="GridCell.Tab.0.right/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871922" />
-    <state width="1676" height="495" key="GridCell.Tab.1.bottom" timestamp="1604464871730">
+    <state width="1676" height="495" key="GridCell.Tab.0.bottom/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604477795838" />
+    <state width="1676" height="495" key="GridCell.Tab.0.center" timestamp="1604477795838">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1676" height="495" key="GridCell.Tab.1.bottom/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871730" />
-    <state width="1676" height="495" key="GridCell.Tab.1.center" timestamp="1604464871730">
+    <state width="1676" height="495" key="GridCell.Tab.0.center/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604477795838" />
+    <state width="1676" height="495" key="GridCell.Tab.0.left" timestamp="1604477795838">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1676" height="495" key="GridCell.Tab.1.center/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871730" />
-    <state width="1676" height="495" key="GridCell.Tab.1.left" timestamp="1604464871730">
+    <state width="1676" height="495" key="GridCell.Tab.0.left/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604477795838" />
+    <state width="1676" height="495" key="GridCell.Tab.0.right" timestamp="1604477795838">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1676" height="495" key="GridCell.Tab.1.left/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871730" />
-    <state width="1676" height="495" key="GridCell.Tab.1.right" timestamp="1604464871730">
+    <state width="1676" height="495" key="GridCell.Tab.0.right/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604477795838" />
+    <state width="1676" height="495" key="GridCell.Tab.1.bottom" timestamp="1604477795710">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state width="1676" height="495" key="GridCell.Tab.1.right/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871730" />
-    <state x="1312" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604459705323">
+    <state width="1676" height="495" key="GridCell.Tab.1.bottom/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604477795710" />
+    <state width="1676" height="495" key="GridCell.Tab.1.center" timestamp="1604477795710">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1312" y="433" key="Vcs.Push.Dialog.v2/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604459705323" />
+    <state width="1676" height="495" key="GridCell.Tab.1.center/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604477795710" />
+    <state width="1676" height="495" key="GridCell.Tab.1.left" timestamp="1604477795709">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="495" key="GridCell.Tab.1.left/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604477795709" />
+    <state width="1676" height="495" key="GridCell.Tab.1.right" timestamp="1604477795710">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="495" key="GridCell.Tab.1.right/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604477795710" />
+    <state x="1312" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604465015248">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1312" y="433" key="Vcs.Push.Dialog.v2/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604465015248" />
     <state x="1383" y="315" key="search.everywhere.popup" timestamp="1604459230758">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
