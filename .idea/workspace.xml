@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5987489f-bc74-42bb-8c86-b7c938457238" name="Default Changelist" comment="ide files commit">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    <list default="true" id="5987489f-bc74-42bb-8c86-b7c938457238" name="Default Changelist" comment="openthelock.go and openthelock_test.go">
+      <change afterPath="$PROJECT_DIR$/topics/bfsdfs/openthelock.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/topics/bfsdfs/openthelock_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -59,7 +61,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,7 +70,12 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yehuda\GolandProjects\gopractice\topics" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestOpenLock in gopractice/topics/bfsdfs (1)">
     <configuration name="go build gopractice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gopractice" />
       <working_directory value="$PROJECT_DIR$" />
@@ -78,8 +85,32 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestOpenLock in gopractice/topics/bfsdfs (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gopractice" />
+      <working_directory value="$PROJECT_DIR$/topics/bfsdfs" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gopractice/topics/bfsdfs" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestOpenLock\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestOpenLock in gopractice/topics/bfsdfs" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gopractice" />
+      <working_directory value="$PROJECT_DIR$/topics/bfsdfs" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="gopractice/topics/bfsdfs" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestOpenLock\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestOpenLock in gopractice/topics/bfsdfs (1)" />
+        <item itemvalue="Go Test.TestOpenLock in gopractice/topics/bfsdfs" />
         <item itemvalue="Go Build.go build gopractice" />
       </list>
     </recent_temporary>
@@ -102,7 +133,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ide files commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="ide files commit" />
+    <MESSAGE value="main.go" />
+    <MESSAGE value="openthelock.go and openthelock_test.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="openthelock.go and openthelock_test.go" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -112,9 +145,45 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1512" y="533" key="#Go_Modules/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604459120601" />
-    <state x="1312" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604457517989">
+    <state width="1676" height="495" key="GridCell.Tab.0.bottom" timestamp="1604464871922">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1312" y="433" key="Vcs.Push.Dialog.v2/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604457517989" />
+    <state width="1676" height="495" key="GridCell.Tab.0.bottom/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871922" />
+    <state width="1676" height="495" key="GridCell.Tab.0.center" timestamp="1604464871922">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="495" key="GridCell.Tab.0.center/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871922" />
+    <state width="1676" height="495" key="GridCell.Tab.0.left" timestamp="1604464871922">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="495" key="GridCell.Tab.0.left/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871922" />
+    <state width="1676" height="495" key="GridCell.Tab.0.right" timestamp="1604464871922">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="495" key="GridCell.Tab.0.right/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871922" />
+    <state width="1676" height="495" key="GridCell.Tab.1.bottom" timestamp="1604464871730">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="495" key="GridCell.Tab.1.bottom/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871730" />
+    <state width="1676" height="495" key="GridCell.Tab.1.center" timestamp="1604464871730">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="495" key="GridCell.Tab.1.center/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871730" />
+    <state width="1676" height="495" key="GridCell.Tab.1.left" timestamp="1604464871730">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="495" key="GridCell.Tab.1.left/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871730" />
+    <state width="1676" height="495" key="GridCell.Tab.1.right" timestamp="1604464871730">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="1676" height="495" key="GridCell.Tab.1.right/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604464871730" />
+    <state x="1312" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604459705323">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1312" y="433" key="Vcs.Push.Dialog.v2/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604459705323" />
+    <state x="1383" y="315" key="search.everywhere.popup" timestamp="1604459230758">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1383" y="315" key="search.everywhere.popup/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604459230758" />
   </component>
 </project>
