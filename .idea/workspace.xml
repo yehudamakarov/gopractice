@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5987489f-bc74-42bb-8c86-b7c938457238" name="Default Changelist" comment="openthelock.go solution.&#10;but why the if check in the noted todo?">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topics/bfsdfs/openthelock.go" beforeDir="false" afterPath="$PROJECT_DIR$/topics/bfsdfs/openthelock.go" afterDir="false" />
-    </list>
+    <list default="true" id="5987489f-bc74-42bb-8c86-b7c938457238" name="Default Changelist" comment="openthelock.go solution.&#10;final" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +133,8 @@
     <MESSAGE value="main.go" />
     <MESSAGE value="openthelock.go and openthelock_test.go" />
     <MESSAGE value="openthelock.go solution.&#10;but why the if check in the noted todo?" />
-    <option name="LAST_COMMIT_MESSAGE" value="openthelock.go solution.&#10;but why the if check in the noted todo?" />
+    <MESSAGE value="openthelock.go solution.&#10;final" />
+    <option name="LAST_COMMIT_MESSAGE" value="openthelock.go solution.&#10;final" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -150,10 +148,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="459" height="466" key="DebuggerActiveHint/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604468191322" />
-    <state x="1812" y="92" width="1536" height="1216" key="DiffContextDialog" timestamp="1604478555029">
+    <state x="1812" y="92" width="1536" height="1216" key="DiffContextDialog" timestamp="1604510446991">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1812" y="92" width="1536" height="1216" key="DiffContextDialog/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604478555029" />
+    <state x="1812" y="92" width="1536" height="1216" key="DiffContextDialog/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604510446991" />
     <state x="2360" y="455" key="FileChooserDialogImpl" timestamp="1604478501887">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -190,10 +188,18 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="1676" height="495" key="GridCell.Tab.1.right/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604477795710" />
-    <state x="1312" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604465015248">
+    <state x="336" y="122" width="2887" height="1156" key="MergeDialog" timestamp="1604510496405">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="1312" y="433" key="Vcs.Push.Dialog.v2/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604465015248" />
+    <state x="336" y="122" width="2887" height="1156" key="MergeDialog/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604510496405" />
+    <state x="1358" y="461" key="MultipleFileMergeDialog" timestamp="1604510496422">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1358" y="461" key="MultipleFileMergeDialog/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604510496422" />
+    <state x="1312" y="433" key="Vcs.Push.Dialog.v2" timestamp="1604510520311">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1312" y="433" key="Vcs.Push.Dialog.v2/3440.119.1920.1040/0.0.3440.1400@0.0.3440.1400" timestamp="1604510520311" />
     <state x="1383" y="315" key="search.everywhere.popup" timestamp="1604459230758">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
